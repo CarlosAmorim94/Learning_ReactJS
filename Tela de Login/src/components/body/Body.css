@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.login {
+    background: url(../../img/icone-usuario.png) no-repeat scroll 7px 7px;
+    padding-left:30px;
+    align-items: center;
+}
+
+.senha {
+    background: url(../../img/icone-cadeado.png) no-repeat scroll 7px 7px;
+    padding-left:30px;
+    align-items: center;
+}
