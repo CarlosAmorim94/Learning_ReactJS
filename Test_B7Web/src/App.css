@@ -1,0 +1,192 @@
+.header {
+    color:white;
+    background-color:rgb(58, 58, 58);
+    display:flex;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu {
+    color:white;
+    display: flex;
+    margin: 10px;
+    
+}
+
+.counter {
+    background-color: rgb(158, 158, 158);
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+.menu li {
+    margin-left: 25px;
+    list-style: none;
+    padding: 10px;
+}
+
+
+header h1 {
+    color: rgb(255, 255, 255);
+
+}
+
+.button-deslike {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 100%;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 20%;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 15px;
+}
+
+.button-deslike:focus {
+  color:  #ff0000cb;
+  border-radius: 15px;
+}
+
+.button-deslike:hover {
+  border-color:  #ff0000cb;
+  color: #ff0000cb;
+  fill:  #ff0000cb;
+  border-radius: 15px;
+}
+
+.button-deslike:active {
+  border-color:  #ff0000cb;
+  color:  #ff0000cb;
+  fill:  #ff0000cb;
+  border-radius: 15px;
+}
+
+@media (min-width: 768px) {
+  .button-deslike {
+    min-width: 30%;
+    border-radius: 15px;
+  }
+}
+
+
+.button-like {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 100%;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 20%;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 15px;
+}
+
+.button-like:focus {
+  color: #171e29;
+  border-radius: 15px;
+}
+
+.button-like:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+  border-radius: 15px;
+}
+
+.button-like:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+  border-radius: 15px;
+}
+
+@media (min-width: 768px) {
+  .button-like {
+    min-width: 30%;
+  }
+}
+
+.container {
+    width: 30%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 30px;
+    display: block;
+    margin: 1%;
+    padding-top: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.interacao {
+    width: 90%;
+    height: 15%;
+    display:flex;
+    position: bottom;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.fotos{
+    display:block;
+    margin: auto;
+    width: 100%;
+    height: 80%;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+    border: 1px solid rgb(124, 124, 124);
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(58, 58, 58);
+}
