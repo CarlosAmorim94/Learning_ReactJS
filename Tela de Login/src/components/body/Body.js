@@ -14,6 +14,7 @@ export default function Body(props) {
         setTexto(e.target.value)
     }
     
+    // Remover as divs e encapsular os formulários em um Form.
 
     return (
         <div className="flex items-stretch my-5 mx-auto container w-full h-3/5 bg-center">
