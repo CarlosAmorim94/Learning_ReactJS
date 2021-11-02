@@ -1,15 +1,21 @@
 import React from 'react';
 import SearchBox from './components/SearchBox';
 import './App.css';
+import Modal from './components/Modal';
 
 
 function App() {
 
   const [texto, setTexto] = React.useState('')      //Altera o texto do app, com base na props passada de outro componente
   const [list, setList] = React.useState([])
+  const [showModal, setShowModal] = React.useState(false)
 
   function handleSearchInput(texto) {             //Altera o texto do app, com base na props passada de outro componente
     setTexto(texto)
+  }
+
+  function handleButtonModal() {
+    setShowModal(true)
   }
 
   React.useEffect(()=>{
@@ -39,7 +45,7 @@ function App() {
     <p>Texto procurado é {texto}</p>
 
     <ul>
-      {list.map((item, key)=>(                //Listar itens de list
+      {list.map((item, key)=>(                //Listar itens de 
         <li key={key}>
           {item.done &&                       //Se done for true a tag <del> irá passar um risco, se não, escrever normal
           <del>{item.title}</del>
@@ -48,6 +54,13 @@ function App() {
           item.title}</li>
       ))}
     </ul>
+
+      <hr/>
+
+      <button onClick={handleButtonModal}>Exibir modal!</button> 
+      <Modal show={showModal} setShow={setShowModal}>
+        <h1>Testando!!!</h1>
+      </Modal>
 
   </>)
 }

@@ -18,10 +18,10 @@ export default function Body() {
                 </div>
                     <form>
                         <label className="flex p-4 my-0 mx-auto ">
-                            <input type="email" placeholder="Digite seu e-mail" className="login py-2 bg-white mx-auto w-full rounded-xl focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent"></input>
+                            <input type="email" placeholder="Digite seu e-mail" className="login py-2 bg-white mx-auto w-full rounded-xl focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent"/>
                         </label>
                         <label className="flex p-4 mx-auto ">
-                            <input type="password" placeholder="Digite sua senha" className="senha py-2 bg-white mx-auto w-full rounded-xl focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent"></input>
+                            <input type="password" placeholder="Digite sua senha" className="senha py-2 bg-white mx-auto w-full rounded-xl focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent"/>
                         </label>
                         <div className="flex">
                             <button className="border-2 mx-auto rounded-xl my-4 px-5 py-2 w-5/6 text-white bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 hover:bg-pink-500">Login!</button>
@@ -35,13 +35,13 @@ export default function Body() {
 
                     <div className="px- space-x-8 justify-center flex">
                         <div>
-                            <img src={facebook} />
+                            <img src={facebook} alt="" />
                         </div>
                         <div>
-                            <img src={google} />
+                            <img src={google} alt="" />
                         </div>
                         <div>
-                            <img src={linkedin} />
+                            <img src={linkedin} alt="" />
                         </div> 
                     </div>
                     

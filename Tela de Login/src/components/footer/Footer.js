@@ -10,27 +10,27 @@ export default function Footer() {
                 <div>
                     <h1 className="p-4 text-center text-gray-700 text-xl">Empresa:</h1>
                     <ul className="text-center">
-                        <li><a>História</a></li>
-                        <li><a>Missão</a></li>
-                        <li><a>Visão</a></li>
-                        <li><a>Valores</a></li>
-                        <li><a>Empregos</a></li>
+                        <li><a href="">História</a></li>
+                        <li><a href="">Missão</a></li>
+                        <li><a href="">Visão</a></li>
+                        <li><a href="">Valores</a></li>
+                        <li><a href="">Empregos</a></li>
                     </ul>
                 </div>
                 <div>
                     <h1 className="p-4 text-center text-gray-700 text-xl">Comunidade:</h1>
                         <ul className="text-center">
-                            <li><a>Parceiro</a></li>
-                            <li><a>endereço</a></li>
-                            <li><a>Causas sociais</a></li>
+                            <li><a href="">Parceiro</a></li>
+                            <li><a href="">endereço</a></li>
+                            <li><a href="">Causas sociais</a></li>
                         </ul>
                 </div>
                 <div>
                     <h1 className="p-4 text-center text-gray-700 text-xl">Redes Sociais:</h1>
                         <ul className=" flex items-stretch justify-center" >
-                            <li className="mx-auto"><img src={facebook} /> </li>
-                            <li className="mx-auto"><img src={instagram} /> </li>
-                            <li className="mx-auto"><img src={whatsapp} /> </li>
+                            <li className="mx-auto"><img src={facebook} alt="" /> </li>
+                            <li className="mx-auto"><img src={instagram} alt="" /> </li>
+                            <li className="mx-auto"><img src={whatsapp} alt="" /> </li>
                         </ul>
                 </div>
                 

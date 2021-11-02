@@ -7,7 +7,7 @@ export default function Header() {
     return (
             <div className="w-full h-1/6 p-3 justify-between inline flex items-stretch bg-opacity-25 bg-white">
                 <div className="logo">
-                    <img src={logo} />   
+                    <img src={logo} alt="" />   
                 </div>
                 <div className="flex self-center">
                     <ul className="flex">
