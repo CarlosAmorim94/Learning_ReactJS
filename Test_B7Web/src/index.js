@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-
+/*import App from './App';*/
+import Requisicoes from './Requisicoes'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-
+    <Requisicoes />
   </React.StrictMode>,
   document.getElementById('root')
 );
