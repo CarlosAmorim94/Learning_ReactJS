@@ -4,6 +4,22 @@ Meus primeiros passos em ReatcJS e toda minha evolução ficará disponível nes
 
 Os projetos estão separados por pastas
 
+## Na pasta "Test_B7Web" estão meus aprendizados com:
+    
+    - Componentes
+    - Props
+    - Condição de exibição
+    - Ciclo de vida
+    - Listas (função .map())
+    - Styled components
+    - Modais
+    - React Router
+    - Requisições API
+    - Redux (Em aprendizado)
+    - ContextAPI (Em aprendizado)
+
+
+
 <h2>ℹ️ Como utilizar</h2>
 
     Clone esse repositório
