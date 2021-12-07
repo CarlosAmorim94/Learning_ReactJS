@@ -120,7 +120,7 @@ const Requisicoes = () => {
 
                 {cars.map((item, key)=>(
                     <div key={key}>
-                        <img src={item.photo} width="200" alt="teste" />
+                        <img src={item.photo} width="200px" alt="teste" />
                         <h3>{item.brand} - {item.name}</h3>
                     </div>
                 ))}
