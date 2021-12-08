@@ -115,7 +115,7 @@ function App() {
       <hr/>
 
       <h1> testando Redux</h1>
-          <br/><br/>
+          <br/>
           <h4>Nome : {name}</h4>
           <h4>Contador: {contador}</h4>
 
@@ -150,3 +150,10 @@ export default connect(mapStateToProps, mapDispatchToProps)(App) */
 
 
 export default App
+
+
+/* Dependencias
+
+npm install redux redux-persist redux-react react-router-dom --save styled-components
+
+*/
